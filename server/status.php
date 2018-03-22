@@ -1,7 +1,7 @@
 	<?php
-		require "MCPing.php"; //Import File
-		$ping = new MCPing(); //New Class 
-	    $ping = ($ping->GetStatus( 'land-progress89.net', 25565 )->Response() ); //Chang IP Server And Port
+          require "MCPing.php"; //Import File
+	   $ping = new MCPing(); //New Class 
+	   $ping = ($ping->GetStatus( 'l27.0.0.1', 25565 )->Response() ); //Chang IP Server And Port
 		
 	?>
 <!DOCTYPE html>
@@ -60,7 +60,6 @@
 							<td><b>Favicon</b></td>
 							<td><img src='<?php print $ping["favicon"]; ?>' width="64px" height="64px" style="float:left;"/></td>
 						</tr>
-						<div id="body">
 			              </div>
 					</tbody>
 				</table>
