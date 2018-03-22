@@ -39,7 +39,7 @@
 						<tr>
 							<!-- Ip Server-->
 							<td><b>IP</b></td>
-							<td><?php print $ping["hostname"]; echo ":";  print $info["port"]; ?></td>
+							<td><?php print $ping["hostname"]; echo ":";  print $ping["port"]; ?></td>
 						</tr>
 						<tr>
 							<!-- Version -->
